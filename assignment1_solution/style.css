@@ -1,0 +1,68 @@
+/**
+ * Base Styles 
+ */
+
+body {
+	
+	/* 2.3 */
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat; 
+
+	/* Nice trick to make the background full size */
+	background-size: cover;
+}
+
+img {
+	
+	border: 2px dashed #278BD2; /* 2.1 */
+	box-sizing: border-box; /* Bonus */
+	margin: 6px;
+}
+
+	
+	img:hover {
+		margin: 0; /* Bonus */
+		border: 8px dashed #FDF6E3; /* 4.4 */
+	}
+
+
+/**
+ * Typography 
+ */
+
+/* 2.4 */
+h3 {
+	color: #1F6199;
+}
+
+/* 4.3 */
+p::first-letter {
+    color: #8A2BE2;
+}
+
+
+/**
+ * Content 
+ */
+
+/* 4.2 */
+.unstyled-list {
+	list-style-type: none;
+}
+
+/* 3.2 - 3.3 */
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: #278BD2;
+}
+
+	/* 3.4 */
+	.box-special {
+		background-color: #68C499;
+	}
+
+	/* 4.4 */
+	.box-special:hover {
+		background-color: #9F4440;
+	}
