@@ -1,0 +1,78 @@
+
+/* Main Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 2em auto;
+}
+
+
+/* Header */
+
+.header {
+    margin: 0 0 2em;
+    display: table;
+}
+
+    .story-image, .story-title {
+        display: table-cell;
+    }
+
+    .story-title {
+        vertical-align: middle;
+        padding-left: 2em;
+    }
+
+
+
+/* Forms */
+
+.button {
+    color: #fff;
+    background: #116699;
+    border: none;
+    padding: 7px;
+    margin: 7px 0;
+    float: left;
+
+    -webkit-border-radius: 7px;
+          border-radius: 7px;
+
+    background-clip: padding-box;
+
+    -webkit-box-shadow: 0px 0px 4px 0px #666;
+          box-shadow: 0px 0px 4px 0px #666;
+
+}
+
+.button:hover {
+    background: #1155dd;
+}
+
+.button:active {
+    background: #112266;
+    -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+
+/* Helper Classes */
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
