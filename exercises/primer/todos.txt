@@ -1,0 +1,23 @@
+Let's get our hands in some code right off the bat. Be prepared to make mistakes and do a lot of Googling!
+
+---
+
+If you like, work through the following tasks to get you started:
+
+1. Change the page text
+2. Add another image
+3. Add a link
+4. Give the page a background image
+5. Put a border around the image
+6. Make the paragraph span only half of the screen
+7. Stretch an image so it looks really distorted
+8. Use an uncommon HTML5 element
+9. Use a webfont
+10. Add a drop shadow to one of the images
+
+Super ultimate bonus:
+11. Make some things bounce around with animate.css
+
+---
+
+If you don't like those, do whatever you want!

@@ -7,4 +7,8 @@ $(document).ready(function(){
 
 	$('.intro').text().replace('The','HELLO');
 
+	$( window ).scroll( function() {
+		$('body').css('background', 'green');
+	});
+
 });

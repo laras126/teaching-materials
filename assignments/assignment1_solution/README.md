@@ -1,11 +1,6 @@
 ## Assignment 1
 
-This repo is a completed version of a big, huge task list given to students learning the fundamentals of HTML and CSS. I usually walk them through creating a project folder and initial files, then they are given this list:
-
-### A couple of notes:
-
-* All styles must be done in CSS, e.g. ```<p color="green">``` is not allowed!
-* There are multiple ways to accomplish each task (some better than others!).
+The tasks were these:
 
 #### Level 1
 

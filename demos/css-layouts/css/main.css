@@ -1,0 +1,39 @@
+/* Main Styles */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) {}
+
+@media only screen and (min-width: 626px) {}
+
+@media only screen and (min-width: 960px) {}
+
+
+
+/* Helper classes */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

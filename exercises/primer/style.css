@@ -1,0 +1,11 @@
+body {
+	font-family: Helvetica;
+}
+
+.wrapper {
+	max-width: 700px;
+}
+
+h1 {
+	color: blue;	
+}
